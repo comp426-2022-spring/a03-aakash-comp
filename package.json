@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api that connects coin flips",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://aakash-comp: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@github.com/comp426-2022-spring/a03-aakash-comp.git"
+  },
+  "author": "Aakash S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a03-aakash-comp/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a03-aakash-comp#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "minimist": "^1.2.6"
+  }
+}
