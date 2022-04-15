@@ -31,7 +31,7 @@ app.get('/app/', (req, res) => {
 app.get('/app/flip/', (req, res) => {
     result = coinFlip()
    
-    res.status(200).json('{flip: %RES%}'.replace('%RES%', result))
+    res.status(200).json({"flip": result})
 
 });
 
